@@ -12,7 +12,7 @@
       description: 'Very shiny.',
       canPurchase: true,
       soldOut: true,
-      specification: 'Many sides',
+      specifications: 'Many sides',
       reviews: 'It has a luster, but for some reason it is very green..',
       images:[
         {
@@ -27,7 +27,7 @@
       description: 'Origin unknown.',
       canPurchase: true,
       soldOut: false,
-      specification: 'Five sides',
+      specifications: 'Five sides',
       reviews: 'It is very clear! I love it!',
       images:[
         {

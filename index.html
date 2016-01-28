@@ -11,8 +11,15 @@
         <h3>
           {{product.name}}
           <em class="pull-right">{{product.price | currency}}</em>
-          <img ng-src="{{product.images[0].full}}" />
-          <p> {{product.description}} </p>
+          <img ng-src="{{product.images[0].thumb}}" />
+          <section>
+            <ul class="nav nav-pills">
+              <li><a href ng-click="tab = product.description">Description</a></li>
+              <li><a href ng-click="tab = product.specification">Specification</a></li>
+              <li><a href ng-click="tab = product.reviews">Reviews</a></li>
+            </ul>
+            {{tab}}
+          </section>
           <button ng-show="product.canPurchase"> Add to Cart </button>
         </h3>
     </ul>

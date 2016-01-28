@@ -12,6 +12,8 @@
       description: 'Very shiny.',
       canPurchase: true,
       soldOut: true,
+      specification: 'Many sides',
+      reviews: 'It has a luster, but for some reason it is very green..',
       images:[
         {
           full: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Pentakisdodecahedron.jpg/280px-Pentakisdodecahedron.jpg',
@@ -25,6 +27,8 @@
       description: 'Origin unknown.',
       canPurchase: true,
       soldOut: false,
+      specification: 'Five sides',
+      reviews: 'It is very clear! I love it!',
       images:[
         {
           full: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQPMmKKOEkhyRWU60w_sn3ZwzM7qtTSrCPQoEEW0F7bKnUeRiBx',
